@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#encabezado">Encabezado</a></li>
+                <li><a href="#explicación">Explicación</a></li>
+                <li><a href="#quote">Cita</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    
+    <h2 id="encabezado" class="rojo">Encabezado</h2>
+    <p class="rojo" style="background-color: aquamarine;">
+        Este párrafo será visible en el navegador
+    </p>
+    <p id="explicación" hidden>
+        Este párrafo no será visible ne el navegador
+    </p>
+    <p contenteditable="true" spellcheck="true" tabindex="2">
+        Este párrafo tiene faltas de ortografia y es editable
+    </p> 
+
+    <input type="text" tabindex="1">
+    <input type="text" tabindex="3">
+
+    <p lang="en" translate="no">
+        This paragraph is written in English
+    </p>
+    <a href="https:\\www.google.com">google.com</a>
+    <a>pep</a>
+        <address>
+            <p>Av. 123, 456</p>
+            <p>Barrio 1</p>
+        </address>
+        <blockquote id="quote" cite="https://www.wikipedia.org/wiki/HTML"  style="background-color: #777777;">
+            Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. 
+        </blockquote>
+             <details>
+               <summary>Detalles</summary>
+            <p>Este es un párrafo con detalles</p>
+            </details>
+        </details>
+    </address>
+
+    <p>Géneros de videojuegos</p>
+    <dl>
+        <dt>Arcade</dt>
+        <dd>Tienen como aushdaoshdaosdhaosidhjaohdah ohudoaishd oaihsdoaihsdoa</dd>
+        <dt>Estrategia</dt>
+        <dd>Tienen como iasudhausdhauidh iaushdaikejuh oshfnmnduhdksis djusnjsm</dd>
+        <dt>Disparos</dt>
+        <dd>Tienen como asdhasdauh aiusdhakjah aiusdhakjah</dd>
+    </dl>
+  
+    
+    <form action="/login" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        <br><br>
+        <input type="submit" value="Login">
+    </form>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    
+</body>
+</html>
